@@ -888,3 +888,18 @@ footer p {
   }
 
 }
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding: 10px; /* Add some padding */
+  color: rgb(255, 251, 0); /* White text color */
+}
+
+.html {width: 70%; background-color: rgb(247, 157, 22);} /* Green */
+.css {width: 50%; background-color: rgb(247, 157, 22);} /* Blue */
+.js {width: 50%; background-color: rgb(247, 157, 22);} /* Red */
+.php {width: 55%; background-color: rgb(247, 157, 22);} /* Dark Grey */
+
